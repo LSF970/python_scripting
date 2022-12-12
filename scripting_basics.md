@@ -165,9 +165,9 @@ This is why we want to teach you scripting. As DevOps engineers we want to autom
 
 ## Further lessons and labs:
 
-* [os module in depth] (https://github.com/LSF970/python_scripting/tree/main/labs/os)
-* [Automation with boto 3] (https://github.com/LSF970/python_scripting/tree/main/labs/boto3)
-* [json module in more depth] (https://github.com/LSF970/python_scripting/tree/main/labs/json)
-* [Scripting to automate yaml] (https://github.com/LSF970/python_scripting/tree/main/labs/yaml)
-* [speedreader mini-project] (https://github.com/LSF970/python_scripting/tree/main/labs/speedreader) 
+* [os module in depth](https://github.com/LSF970/python_scripting/tree/main/labs/os)
+* [Automation with boto 3](https://github.com/LSF970/python_scripting/tree/main/labs/boto3)
+* [json module in more depth](https://github.com/LSF970/python_scripting/tree/main/labs/json)
+* [Scripting to automate yaml](https://github.com/LSF970/python_scripting/tree/main/labs/yaml)
+* [speedreader mini-project](https://github.com/LSF970/python_scripting/tree/main/labs/speedreader) 
 
