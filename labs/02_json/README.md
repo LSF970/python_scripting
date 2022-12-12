@@ -199,3 +199,8 @@ for key in json:
 ```
 
 So now we can see how Python scripting allows us to parse JSON efffectively and quickly using scripts.
+
+# Further labs:
+
+* [Use Python scripts to validate json](https://github.com/LSF970/python_scripting/tree/main/labs/02_json/check_json)
+* [Use Python scripts to transform JSON into YAML with one command](https://github.com/LSF970/python_scripting/tree/main/labs/02_json/json2yaml)
