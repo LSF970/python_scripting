@@ -157,7 +157,7 @@ The ouput of this is:
 {"name": "John", "age": 30, "city": "London"}
 ```
 
-## That was cool right!
+## Can you see how useful that was?
 
 You are now starting to see the power of scripts and scripting. We can create scripts to make tasks/jobs we know we will need to complete faster. That last example was really simple but effective. With just a few lines of code, I can now convert any Python objects into valid JSON, rather than typing it up myself.
 

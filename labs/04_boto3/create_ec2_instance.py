@@ -1,6 +1,7 @@
 #! /bin/python3
 
-import boto3, os
+import boto3
+import os
 # run pip install botocore for exceptions
 from botocore.exceptions import ClientError
 
