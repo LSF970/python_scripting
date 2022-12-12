@@ -16,7 +16,9 @@ The seven core Python modules are:
 * DateTime
 * JSON
 
-First lets use sys to check the version of Python we are using:
+First lets use sys to check the version of Python we are using with the sys module:
+
+## sys module
 
 Create a file called sysmodule
 
@@ -45,7 +47,7 @@ The output should be something like:
 
 So by using the sys module we can use built in functions to streamline what we want to do. This is scripting.
 
-## OS Module
+## os module
 
 Used to interact with the host operating system, mainly around file and folder manipulation.
 
@@ -71,23 +73,102 @@ Or make a new directory with:
 
 ```
 os.mkdir("path")
+```
 
-## Subprocess
+## subprocess module
 
-Content here
+The subprocess module is used to create and interact with subprocesses managed by our Python interpretor. For example, we can use subprocess to run another python file:
 
-## Math
+```
+subprocess.run(["python", "hello_world.py"])
+```
 
-Content here
+The output of this is 'hellow world' in the terminal:
 
-## Random
+```
+hello world!
+```
 
-Content here
+Note - Be carefful you don't create an inifinte loop. Run your .py file manually first and automate it when you are happy with it's integration.
 
-## DateTime
+## math module
 
-Content here
+The math module lets us do some more complex mathematical operations than basic Python allows. To showcase this lets use the .pi method:
+
+```
+pi = math.pi
+pi_string = str(pi)
+print("The value of pi is " + pi_string)
+```
+
+The output is the value of pi in the terminal:
+
+```
+The value of pi is 3.141592653589793
+```
+
+## random module
+
+The random module is fairly self explanatory. it allows us to randomise values in a number of ways. 
+A simple way to use it is to generate a random number between two limiting values:
+
+```
+randnum = random.randrange(1, 10)
+print(randnum)
+```
+
+This will output a random (whole) number between 1 and 10.
+
+## datetime module
+
+The datetime module is extremely useful and will be relied upon heavily as long as you continue to use Python. It allows us to get the date and time in anumber of ways. A basic way to use it is to simply get the current date and time:
+
+```
+whatisthedate = datetime.datetime.now()
+print(whatisthedate)
+```
+
+Example output:
+
+```
+2022-12-12 15:00:15.641668
+```
 
 ## JSON
 
-Content here
+JSON is something we will look at in more detail soon. It is essentially a human readable language that is great for transporting data between systems. We will be using it often as DevOps engineers. Here is an example of it in action. We can use it to take a Python object and turn it into JSON automatically:
+
+```
+x = {
+    "name": "John",
+    "age": 30,
+    "city": "London"
+}
+
+y = json.dumps(x)
+
+print(y)
+
+```
+
+The ouput of this is:
+
+```
+{"name": "John", "age": 30, "city": "London"}
+```
+
+## That was cool right!
+
+You are now starting to see the power of scripts and scripting. We can create scripts to make tasks/jobs we know we will need to complete faster. That last example was really simple but effective. With just a few lines of code, I can now convert any Python objects into valid JSON, rather than typing it up myself.
+
+This is why we want to teach you scripting. As DevOps engineers we want to automate as much as we can, in order to make the SDLC as smooth as possible. Scripting is one of the ways we can do this. 
+
+## Further lessons and labs:
+
+* os module in depth ()
+* Automation with boto 3 ()
+* json module in more depth ()
+* Scripting to automate yaml ()
+* speedreader mini-project () 
+
+See Day 1 of [Agile and Scrum](https://github.com/spartaglobal/TrainingCentral/tree/main/00-BusinessWeek#agile-and-scrum) in the TrainingCentral Respository
