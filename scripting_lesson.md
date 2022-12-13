@@ -219,6 +219,15 @@ You are now starting to see the power of scripts and scripting. We can create sc
 
 This is why we want to teach you scripting. As DevOps engineers we want to automate as much as we can, in order to make the SDLC as smooth as possible. Scripting is one of the ways we can do this. 
 
+
+## Summary
+
+You just:
+
+* Learned the difference between scripting and programming
+* Why scripting is useful to us as DevOps engineers
+* How to write basic scripts, using core Python modules
+
 ## Further lessons and labs:
 
 * [os module in depth](https://github.com/LSF970/python_scripting/tree/main/labs/01_os)
